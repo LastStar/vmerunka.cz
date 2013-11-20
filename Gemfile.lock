@@ -39,6 +39,7 @@ GEM
     image_size (1.1.3)
     in_threads (1.1.1)
     kramdown (1.1.0)
+    libv8 (3.16.14.3)
     listen (1.2.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -105,6 +106,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
+    ref (1.0.5)
     rouge (0.3.9)
       thor
     ruby18_source_location (0.2)
@@ -124,6 +126,9 @@ GEM
       tilt (~> 1.1)
     syntax (1.0.0)
     temple (0.6.5)
+    therubyracer (0.12.0)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.18.1)
     tilt (1.3.7)
     tzinfo (0.3.37)
@@ -144,4 +149,5 @@ DEPENDENCIES
   middleman-syntax
   ruby18_source_location
   slim (~> 2.0.0)
+  therubyracer
   wdm (~> 0.1.0)
