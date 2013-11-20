@@ -22,36 +22,6 @@ Slim::Engine.default_options[:format] = :html5
 ignore '/calendar.html'
 
 
-######################################################################
-# Blog settings.
-######################################################################
-
-Time.zone = "Amsterdam"
-
-activate :blog do |blog|
-  blog.prefix = 'blog'
-  blog.permalink = ':year/:title.html'
-  # blog.sources = ":year-:month-:day-:title.html"
-  blog.taglink = "tags/:tag.html"
-  # blog.layout = "layout"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
-  # blog.year_link = ":year.html"
-  # blog.month_link = ":year/:month.html"
-  # blog.day_link = ":year/:month/:day.html"
-  blog.default_extension = ".md"
-
-  blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
-
-  blog.paginate = true
-  blog.per_page = 10
-  # blog.page_link = "page/:num"
-end
-
-# Enable XML feed. Don't forget to edit feed.xml.builder first.
-# page "/feed.xml", :layout => false
-
 
 ######################################################################
 # Development environment.
