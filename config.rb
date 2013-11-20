@@ -21,8 +21,6 @@ Slim::Engine.default_options[:format] = :html5
 # Ignores
 ignore '/calendar.html'
 
-
-
 ######################################################################
 # Development environment.
 ######################################################################
