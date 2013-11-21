@@ -21,6 +21,8 @@ h1, h2, h3 {
 
 .wrapper {
   @include outer-container;
+
+  max-width: 54em;
 }
 
 header {
@@ -33,6 +35,8 @@ div.main-content {
   @include outer-container;
   @include row;
   @include pad(1em);
+
+  max-width: 54em;
 
   h2 {
     margin-top: 0.5em;
