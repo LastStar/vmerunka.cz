@@ -11,11 +11,39 @@
 @import 'bourbon';
 @import 'neat';
 
+$pink: rgb(244, 144, 205);
+$light-pink: tint($pink, 90%);
+$yellow: rgb(253, 177, 80);
+$light-yellow: tint(yellow, 95%);
+
 body {
-  @include outer-container;
+}
+
+ul {
+  list-style: none;
 }
 
 div.container {
-  background-color: lighten(yellow, 45%);
-  @include pad(2em);
+  @include outer-container;
+
+  background-color: $light-yellow;
+  box-shadow: 0 0 10px black;
+
+  header {
+    @include row;
+    @include pad(2em);
+
+    background-color: $light-pink;
+  }
+
+  div.main-content {
+    @include row;
+    @include pad(2em);
+  }
+
+  footer {
+    @include pad(0.5em 1em);
+
+    background-color: $light-pink;
+  }
 }
