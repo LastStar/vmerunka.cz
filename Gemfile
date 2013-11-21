@@ -14,6 +14,7 @@ end
 gem "slim", "~> 2.0.0"
 
 # Bourbon + Neat
+gem 'bitters'
 gem "middleman-neat", "~> 0.0.4"
 
 # Blogging

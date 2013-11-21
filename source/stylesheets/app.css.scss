@@ -1,0 +1,54 @@
+@import 'bourbon';
+@import 'neat';
+@import 'bitters';
+
+@include font-face(Monopol_Semibold, './Monopol_Semibold', bold);
+
+$pink: rgb(244, 144, 205);
+$light-pink: tint($pink, 90%);
+$yellow: rgb(253, 177, 80);
+$light-yellow: tint(yellow, 95%);
+
+body {
+  margin: 0 auto;
+  font-family: 'Lucida Grande';
+}
+
+h1, h2, h3 {
+  font-family: 'Monopol_Semibold';
+  @include pad(0 0 0 0.5em);
+}
+
+.wrapper {
+  @include outer-container;
+}
+
+header {
+  background-color: $light-pink;
+  box-shadow: 0 0 0.5em black;
+
+}
+
+div.main-content {
+  @include outer-container;
+  @include row;
+  @include pad(1em);
+
+  h2 {
+    margin-top: 1em;
+  }
+
+  ul {
+    max-width: 44em;
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+footer {
+  @include pad(0.5em 2em);
+  box-shadow: -2px 2px 0.5em black;
+
+  background-color: $light-pink;
+}

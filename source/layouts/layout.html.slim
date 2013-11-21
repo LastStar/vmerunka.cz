@@ -24,6 +24,8 @@ html.nojs
     / Consider a custom Modernizr build.
     = javascript_include_tag 'vendor/modernizr-2.x.js'
 
+    link href='http://fonts.googleapis.com/css?family=Abril+Fatface&subset=latin,latin-ext' rel='stylesheet' type='text/css'
+
   body
     /[if lte IE 7]
       / Ancient browser notice.
@@ -32,10 +34,16 @@ html.nojs
         a<> href="http://browsehappy.com/" upgrade your browser
         | to improve your experience.
 
-    div.container
+    header
+      div class="wrapper"
+        h1 doc. ing. Vojtěch Merunka, Ph.D.
+        h3 kandidát na děkana Provozně ekonomické fakulty České zemědělské Univerzity v Praze
+
+    div class="main-content"
       == yield
 
-      footer 2013 Copyright doc. ing. Vojtěch Merunka, Ph.D.
+    footer
+      div class="wrapper" 2013 Copyright doc. ing. Vojtěch Merunka, Ph.D.
 
     = javascript_include_tag 'app'
     = partial 'partials/_ga'
