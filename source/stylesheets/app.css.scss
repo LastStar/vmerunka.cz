@@ -35,7 +35,9 @@ div.main-content {
   @include pad(1em);
 
   h2 {
-    margin-top: 1em;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: thin solid $pink;
   }
 
   ul {
