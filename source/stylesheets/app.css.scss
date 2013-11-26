@@ -4,6 +4,8 @@
 
 @include font-face(Monopol_Semibold, './Monopol_Semibold', bold);
 
+$iphone-landscape: new-breakpoint(max-width 480px 4);
+
 $pink: rgb(244, 144, 205);
 $light-pink: tint($pink, 90%);
 $yellow: rgb(253, 177, 80);
@@ -30,6 +32,7 @@ header {
   box-shadow: 0 0 0.5em black;
 
   h3 {
+    @include span-columns(12);
     margin-bottom: 0.25em;
   }
 
@@ -43,24 +46,28 @@ div.main-content {
   max-width: 54em;
 
   h2 {
+    @include span-columns(12);
+
     margin-top: 0.5em;
     padding-top: 0.5em;
     border-top: thin solid $pink;
   }
 
   ul {
-    max-width: 44em;
+    @include span-columns(12);
+
     li {
       margin-bottom: 0.5em;
     }
   }
 
   h3 {
-    max-width: 17em;
+    @include span-columns(8);
+    @include shift(1);
+
     font-family: 'Monopol_Semibold';
     background-color: $light-yellow;
     padding: 0.5em 1em;
-    margin: 0 2em;
     border-radius: 0.33em;
   }
 
@@ -72,9 +79,12 @@ div.main-content {
     margin-bottom: 1em;
   }
 
-  h3:nth-child(3) {
-    margin: 2em 2.25em;
-    width: 14em;
+  h3:nth-child(3), h3:last-child {
+    @include span-columns(6);
+    @include shift(2);
+
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding: 1em 0;
     background-color: shade($pink, 33%);
     border-radius: 0.33em;
@@ -92,4 +102,26 @@ footer {
   box-shadow: -2px 2px 0.5em black;
 
   background-color: $light-pink;
+}
+
+@include media($iphone-landscape) {
+  header {
+    h3 {
+      @include span-columns(4);
+    }
+  }
+
+  div.main-content {
+    h3:nth-child(2), h3, h2, ul {
+      margin: 0;
+      padding: 0;
+      @include span-columns(4);
+    }
+
+    h3:nth-child(3), h3:last-child {
+      margin: 0;
+      padding: 0;
+      @include span-columns(4);
+    }
+  }
 }

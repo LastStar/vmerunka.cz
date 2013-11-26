@@ -51,3 +51,6 @@ title: 'doc. ing. Vojtěch Merunka, Ph.D. - kandidát na děkana'
 * můj **[profil](http://cz.linkedin.com/in/vmerunka/)** na síti LinkedIn
 * moje **[publikace](http://www.scopus.com/authid/detail.url?authorId=6508362925)** v databázi Scopus
 * moje **[publikace](http://www.isvav.cz/findResultByFilter.do?typVyhledavani=advanced&vyzOrgRok=2013&vyzOrgPoskyt=any&vyzOrg=0&authorSurname=Merunka&authorName=Vojt%C4%9Bch&formType=1)** v databázi RIV
+
+### [Volební program ke stáhnutí v PDF](/Merunka-prezentace.notes.pdf)
+
