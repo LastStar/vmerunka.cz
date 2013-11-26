@@ -21,10 +21,10 @@ title: 'doc. ing. Vojtěch Merunka, Ph.D. - kandidát na děkana'
 ## odborné zaměření
 
 * Softwarové inženýrství, databáze, tvorba a zavádění softwarových systémů, programování, metody analýzy a návrhu systémů, modelování business procesů.
-* Spoluautor metody BORM – Business and Object Relation Modeling pro návrh business a informačních systémů. Metoda byla implementována v modelovacím nástroji britské firmy Craft.CASE, který je registrován u úřadu US Patent and Trade Mark Office pod číslem 78606055 a u úřadu European Office for Harmonization in the Internal Market (Trade Marks and Design) pod ochrannou známkou 004329116.
+* Spoluautor metody BORM – Business and Object Relation Modeling pro návrh business a&nbsp;informačních systémů. Metoda byla implementována v modelovacím nástroji britské firmy Craft.CASE, který je registrován u úřadu US Patent and Trade Mark Office pod číslem 78606055 a u úřadu European Office for Harmonization in the Internal Market (Trade Marks and Design) pod ochrannou známkou 004329116.
 * Zakladatel (1996) a předseda výboru odborné konference OBJEKTY s mezinárodní účastí (konference alternuje v Česku a na Slovensku).
-* Člen výboru konference Tvorba softwaru, která je nejstarší odbornou IT konferencí na československém území. (konference byla letos sloučena dohromady s&nbsp;konferencí Objekty)
-* Zakládající člen mezinárodní skupiny SIGMAS – Special Interest Group on Modeling and Simulation při&nbsp;AIS&nbsp;–&nbsp;mezinárodní asociace pro informační systémy.
+* Člen výboru konference Tvorba softwaru, která je nejstarší odbornou IT konferencí na&nbsp;československém území. (konference byla letos sloučena dohromady s&nbsp;konferencí Objekty)
+* Zakládající člen mezinárodní skupiny SIGMAS – Special Interest Group on Modeling and&nbsp;Simulation při&nbsp;AIS&nbsp;–&nbsp;mezinárodní asociace pro informační systémy.
 * Školitel pro ISACA - mezinárodní organzace pro řízení a audit informačních systémů.
 * Člen Jednoty českých matematiků a fyziků, informatická odborná sekce.
 
@@ -49,6 +49,3 @@ title: 'doc. ing. Vojtěch Merunka, Ph.D. - kandidát na děkana'
 * můj **[profil](http://cz.linkedin.com/in/vmerunka/)** na síti LinkedIn
 * moje **[publikace](http://www.scopus.com/authid/detail.url?authorId=6508362925)** v databázi Scopus
 * moje **[publikace](http://www.isvav.cz/findResultByFilter.do?typVyhledavani=advanced&vyzOrgRok=2013&vyzOrgPoskyt=any&vyzOrg=0&authorSurname=Merunka&authorName=Vojt%C4%9Bch&formType=1)** v databázi RIV
-
-## prezentace mého volebního programu bude doplněna
-
