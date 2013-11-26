@@ -105,6 +105,10 @@ footer {
 }
 
 @include media($iphone-landscape) {
+  body {
+    font-size: 0.66em;
+  }
+
   header {
     h3 {
       @include span-columns(4);
@@ -118,10 +122,15 @@ footer {
       @include span-columns(4);
     }
 
+    h3:nth-child(2) {
+      margin-bottom: 1em;
+    }
+
     h3:nth-child(3), h3:last-child {
       margin: 0;
       padding: 0;
       @include span-columns(4);
+      margin-bottom: 1em;
     }
   }
 }
