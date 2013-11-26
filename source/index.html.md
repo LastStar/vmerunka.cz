@@ -2,9 +2,11 @@
 title: 'doc. ing. Vojtěch Merunka, Ph.D. - kandidát na děkana'
 ---
 
-### Máme před sebou všichni rozhodnutí, jestli si na&nbsp;naší fakultě přejeme pokračování a potvrzení jejich slabin a&nbsp;nebo jestli máme odvahu je odstranit.
+### Máme před sebou všichni rozhodnutí, jestli si na&nbsp;naší fakultě přejeme pokračování a potvrzení jejích slabin a&nbsp;nebo jestli máme odvahu je odstranit.
 
 ### Já Vám nabízím odvahu. Přemýšlejte o tom a&nbsp;nebojte se.
+
+### [Volební program ke stáhnutí v PDF](/Merunka-prezentace.notes.pdf)
 
 * narozen 1967, ženatý, 2 děti, bytem Praha
 * Ing.  1991 inženýr elektronických počítačů na FEL ČVUT
