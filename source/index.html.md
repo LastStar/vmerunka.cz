@@ -6,6 +6,8 @@ title: 'doc. ing. Vojtěch Merunka, Ph.D. - kandidát na děkana'
 
 ### Já Vám nabízím odvahu. Přemýšlejte o tom a&nbsp;nebojte se.
 
+### [Prohlášení k volbě děkana](//prohlaseni_k_volbe.html)
+
 ### [Volební program ke stáhnutí v PDF](/Merunka-prezentace.notes.pdf)
 
 * narozen 1967, ženatý, 2 děti, bytem Praha
