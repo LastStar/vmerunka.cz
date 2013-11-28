@@ -6,7 +6,7 @@ title: 'doc. ing. Vojtěch Merunka, Ph.D. - kandidát na děkana'
 
 ### Já Vám nabízím odvahu. Přemýšlejte o tom a&nbsp;nebojte se.
 
-### [Prohlášení k volbě děkana](//prohlaseni_k_volbe.html)
+### [Prohlášení k volbě děkana](/prohlaseni_k_volbe)
 
 ### [Volební program ke stáhnutí v PDF](/Merunka-prezentace.notes.pdf)
 
